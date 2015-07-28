@@ -1,0 +1,13 @@
+<%= simple_form_for @user, :validate => true, :html => {:class => 'signup_form' } do |f| %>
+
+  <%= f.input :name, :required => true, error: 'Name is required' %>
+
+  <%= f.input :email, :required => true, :label => "Kerberos", error: "Kerberos is required" %>
+
+  <div class= "hidden">
+  	<%= f.input :nickname, placeholder: 'leave this field blank' %>
+  </div>
+
+  <%= f.button :submit, "Sign Up" %>
+
+<% end %>

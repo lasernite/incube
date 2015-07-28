@@ -31,6 +31,13 @@ gem 'spring',        group: :development
 # Font Awesome
 gem "font-awesome-rails"
 
+# Simple forms
+gem 'simple_form',   github: 'plataformatec/simple_form'
+
+# Client side javascript validations for form
+gem 'client_side_validations', github: 'DavyJonesLocker/client_side_validations'
+gem 'client_side_validations-simple_form', github: 'DavyJonesLocker/client_side_validations-simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -1,0 +1,27 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.confirm_signup {
+	width: 100vw;
+	height: 100vh;
+	background-color: #0178B7;
+}
+
+.confirm_signup_name {
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	padding-top: 5vh;
+	color: #fff;
+	font-size: 8vmin;
+	text-align: center;
+	width: 90%;
+}
+
+.confirm_signup_email {
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	color: #fff;
+	font-size: 8vh;
+	margin-top: 8vh;
+	text-align: center;
+	width: 90%;
+}
