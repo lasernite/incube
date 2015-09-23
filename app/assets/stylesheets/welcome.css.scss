@@ -2,6 +2,21 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.facebook_event {
+	color: #fff;
+	text-decoration: none;
+	font-family: ‘Metrophobic’, Arial, serif; 
+	font-weight: 700;
+	font-size: 36px;
+	text-shadow: 2px 2px 5px #3A3A3B;
+	margin-bottom: 24px;
+	margin-top: -24px;
+}
+
+.facebook_event:hover {
+	color: #0178B7;
+}
+
 .logo_header {
 	float: left;
 	margin-top: -10px;
