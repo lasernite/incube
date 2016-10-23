@@ -14,6 +14,9 @@ Rails.application.routes.draw do
   # Users form
   resources "users"
 
+  # Projects
+  resources :projects
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
