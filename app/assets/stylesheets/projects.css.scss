@@ -1,3 +1,58 @@
 // Place all the styles related to the projects controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.cards_box {
+	padding: 15px;
+	justify-content: center;
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	// height: 100%;
+}
+
+.card_title {
+	color: black;
+	font-size: 24px;
+   font-weight: 300;
+   line-height: 48px;
+}
+
+.card.cardoveride {
+	margin: 15px;
+	min-width: 400px;
+	
+}
+
+
+.font_lato {
+	font-family: 'Lato', sans-serif;
+}
+
+// New
+
+.projects_title {
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 120px;
+}
+
+.new_project_form {
+	// display: flex;
+	// width: 800px;
+}
+
+.flex_button {
+	display: flex;
+	justify-content: center;
+}
+
+.new_project_inner_form {
+	margin-top: 40px;
+	width: 800px;
+}
+
+.form_input {
+	z-index: 20;
+}

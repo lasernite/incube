@@ -10,11 +10,10 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= 
-//= require rails.validations
-//= require rails.validations.simple_form
 //= require jquery
 //= require jquery_ujs
+//= require rails.validations
+//= require rails.validations.simple_form
 //= require turbolinks
 //= require materialize-sprockets
 //= require_tree .

@@ -1,6 +1,7 @@
 class ProjectsController < ApplicationController
 
 	def index
+		@projects = Project.where(approved: true)
 	end
 
 	def new
@@ -9,6 +10,7 @@ class ProjectsController < ApplicationController
 
 	def create
 		Project.create(project_params)
+		@projects = Project.where(approved: true)
 		render 'projects/index'
 	end
 
