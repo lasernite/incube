@@ -8,20 +8,10 @@
 	background-color: #0178B7;
 }
 
-.confirm_signup_name {
-	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-	padding-top: 5vh;
-	color: #fff;
-	font-size: 8vmin;
-	text-align: center;
-	width: 90%;
-}
-
-.confirm_signup_email {
+.confirm_signup_name, .confirm_signup_email {
 	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	color: #fff;
-	font-size: 8vh;
-	margin-top: 8vh;
+	font-size: 54px;
 	text-align: center;
-	width: 90%;
+	padding: 10vh 15px 15px 15px;
 }

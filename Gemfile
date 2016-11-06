@@ -41,6 +41,11 @@ gem 'client_side_validations-simple_form', github: 'DavyJonesLocker/client_side_
 # Pretty css
 gem 'materialize-sass'
 
+# Carrierwave for images
+gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
+# AWS support
+gem 'carrierwave-aws'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
