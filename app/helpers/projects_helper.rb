@@ -6,4 +6,12 @@ module ProjectsHelper
 			return "http://" + url
 		end
 	end
+
+	def truncate140(string)
+		if string.length > 140
+			return string[0, 140] + "..."
+		else
+			return string
+		end
+	end
 end
