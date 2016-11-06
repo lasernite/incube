@@ -1,7 +1,7 @@
 class ProjectsController < ApplicationController
 
 	def index
-		@projects = Project.where(approved: true)
+		@projects = Project.where(approved: true).shuffle
 	end
 
 	def new
