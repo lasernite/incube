@@ -787,23 +787,7 @@
 	         <hr class="light">
 	      </div>
 
-	      <div class="cards_box font_lato">
-			  <% @projects.each do |project| %>
-			      <div class="card cardoveride">
-			        <div class="card-image">
-			          <img src="<%= project.picture.s300.url %>" class="card_image">
-			        </div>
-			        <div class="card-content">
-			          <span class="card_title"><%= project.name %></span>
-			          <p><%= truncate140(project.description) %></p>
-			        </div>
-			        <div class="card-action">
-			          <a href="<%= website_format(project.website) %>" target="_blank">Website</a>
-			          <a href="mailto:<%= project.contact %>" target="_blank">Contact</a>
-			        </div>
-			      </div>   
-			  <% end %>
-			</div>
+	      <%= render 'projects/index' %>
 	      
     	</div>
     </section>
