@@ -11,7 +11,7 @@ class ProjectsController < ApplicationController
 	def create
 		Project.create(project_params)
 		@projects = Project.where(approved: true)
-		render 'projects/index'
+		render 'projects/create_success'
 	end
 
 private

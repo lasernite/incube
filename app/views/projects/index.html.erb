@@ -6,7 +6,7 @@
   <% @projects.each do |project| %>
       <div class="card cardoveride">
         <div class="card-image">
-          <img src="<%= project.picture.url %>" class="card_image">
+          <img src="<%= project.picture.s300.url %>" class="card_image">
         </div>
         <div class="card-content">
           <span class="card_title"><%= project.name %></span>

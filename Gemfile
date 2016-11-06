@@ -45,6 +45,8 @@ gem 'materialize-sass'
 gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
 # AWS support
 gem 'carrierwave-aws'
+# Minimagick image resizing
+gem "mini_magick"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
