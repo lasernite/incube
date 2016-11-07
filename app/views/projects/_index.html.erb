@@ -1,11 +1,13 @@
 <div class="cards_box font_lato">
   <% @projects.each do |project| %>
       <div class="card cardoveride">
-        <a href="<%= website_format(project.website) %>" target="_blank">
-          <div class="card-image">
-            <img src="<%= project.picture.s300.url %>" class="card_image">
-          </div>
-        </a>
+        <% unless project.picture.file.nil? %>
+          <a href="<%= website_format(project.website) %>" target="_blank">
+            <div class="card-image">
+              <img src="<%= project.picture.s300.url %>" class="card_image">
+            </div>
+          </a>
+        <% end %>
         <div class="card-content">
           <span class="card_title"><%= project.name %></span>
           <p><%= truncate140(project.description) %></p>

@@ -8,8 +8,8 @@ module ProjectsHelper
 	end
 
 	def truncate140(string)
-		if string.length > 140
-			return string[0, 140] + "..."
+		if string.length > 153
+			return string[0, 150] + "..."
 		else
 			return string
 		end
